@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+a {
+    margin: 10px;
+}
+
+.team-members {
+    display: flex;
+}
+
+.member-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.member-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    max-width: 150px;
+}
