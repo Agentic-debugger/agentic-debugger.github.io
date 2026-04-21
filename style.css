@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-* {
-    box-sizing: border-box;
-}
-
 body {
    font-family: "Google Sans Flex", sans-serif;
    font-optical-sizing: auto;
@@ -22,8 +18,16 @@ body {
     margin: 0;
 }
 
+h2 {
+    margin: 0;
+}
+
 a {
     margin: 10px;
+}
+
+.nav-bar {
+    padding: 1em;
 }
 
 .page-button, .page-button:visited {
@@ -48,8 +52,17 @@ a {
     font-weight: 800;
 }
 
+.project-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
 .team-members {
     display: flex;
+    padding: 1em;
 }
 
 .member-card {
